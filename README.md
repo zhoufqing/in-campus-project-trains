@@ -7,7 +7,11 @@
 代码来源：https://github.com/LarryJiang134/Image_manipulation_detection by LarryJiang134
 
 源代码针对篡改过的图片进行位置检测
+
 在源代码的基础上，修改了部分代码：
+
    1.修改了篡改图片的类型，copy_moce,splicing。由二分类到三分类
+   
    2.修改了所用网络（vgg16—>resnet50）源代码中已经有了resnet的代码，但是需要加一些修改
+   
    3.展示图片时把copy_move 和 splicing 都放在了一起 
